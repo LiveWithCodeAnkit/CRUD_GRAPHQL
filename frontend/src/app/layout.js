@@ -1,10 +1,9 @@
 "use client";
-import 'bootstrap/dist/css/bootstrap.css';
-import './globals.css';
-
+import "bootstrap/dist/css/bootstrap.css";
+import "./globals.css";
 import { Inter } from "next/font/google";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
-import Header from "@/components/Header";
+import Header from "@/components/header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
